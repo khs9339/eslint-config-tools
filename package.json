@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-tools",
+  "version": "0.0.0",
+  "description": "ESLINT 모음 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khs9339/eslint-config-tools.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "hyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khs9339/eslint-config-tools/issues"
+  },
+  "homepage": "https://github.com/khs9339/eslint-config-tools#readme"
+}
