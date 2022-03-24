@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLINT 모음 ",
   "main": "index.js",
   "scripts": {
