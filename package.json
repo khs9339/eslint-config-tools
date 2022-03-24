@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/khs9339/eslint-config-tools/issues"
   },
-  "homepage": "https://github.com/khs9339/eslint-config-tools#readme"
+  "homepage": "https://github.com/khs9339/eslint-config-tools#readme",
+  "peerDependencies": {
+    "eslint": ">=6",
+    "eslint-plugin-import": "^2.18.2"
+  }
 }
