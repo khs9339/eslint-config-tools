@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: ['./rules/tslint'].map((e)=> require.resolve(e)),
   plugins: [],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',

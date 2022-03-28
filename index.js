@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: ['./rules/eslint'].map((e)=> require.resolve(e)),
   plugins: [],
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',

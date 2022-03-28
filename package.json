@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tools",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ESLINT 모음 ",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.17.0",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "babel-eslint": "^10.1.0",
