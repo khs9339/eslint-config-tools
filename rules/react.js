@@ -34,5 +34,6 @@ module.exports = {
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'off',
     'react-hooks/exhaustive-deps': 'off',
+    'react/no-unescaped-entities': 'off',
   },
 };

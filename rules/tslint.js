@@ -8,6 +8,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/method-signature-style': [
       'error',
       'method',
