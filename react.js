@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['./rules/eslint', './rules/tslint', './rules/react'].map((e)=> require.resolve(e)),
+  extends: ['./rules/react'].map((e)=> require.resolve(e)),
   plugins: [],
   parserOptions: {
     ecmaVersion: 12,
