@@ -1,6 +1,5 @@
 # eslint-config-tools
-개인적으로 사용하는 LINT 설정들을 관리 하기 위한 패키지
-
+> framework 별로 eslint 통합 설정
 ---
 ## install
 
@@ -11,8 +10,29 @@ $ npm i -D eslint-config-tools
 // .eslintrc.*
 {
     "estends": [
-        "tools"
-    ]
+        "tools" // 기본 자바스크립트 설정
+        "tools/typescript" // 타입스크립트 설정
+        "tools/vue" // Vue 설정
+        "tools/react" // React 설정 
+    ],
+    "rules": {
+        // ... custom rule 
+    }
 }
 ```
+```json
+// 프로젝트환경 react + typescript 사용중일경우 아래와 같이 추가.
+{
+    "estends": [
+        "tools", // 기본 자바스크립트 설정
+        "tools/typescript", // 타입스크립트 설정
+        "tools/react", // React 설정 
+    ],
+    "rules": {
+        // ... custom rule 
+    }
+}
+```
+
+
 

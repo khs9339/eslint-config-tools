@@ -1,7 +1,7 @@
 {
-    "extends": ["./index"],
-    "env": {
-      "jest": true
-    }
+  "extends": ["./index"],
+  "env": {
+    "jest": true
   }
+}
   

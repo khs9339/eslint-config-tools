@@ -5,15 +5,15 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['./rules/eslint'].map((e)=> require.resolve(e)),
+  extends: ['./rules/eslint'].map((e) => require.resolve(e)),
   plugins: [],
-  parser: '@babel/eslint-parser',
+  parser: 'eslint-parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
   ignorePatterns: [
-    '/coverage',
+    "/coverage",
     '/bin',
     '/dist',
     '/build',
@@ -25,7 +25,6 @@ module.exports = {
     '/.git',
     '/.idea',
     '/.vscode',
-    '/src/assets',
-    '*.config.js',
+    '/src/assets'
   ],
 };

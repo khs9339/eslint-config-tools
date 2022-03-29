@@ -43,10 +43,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo 'husky'"
     }
   },
   "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix"
+    ],
     "**/*.{js,ts}": [
       "eslint --fix"
     ]
