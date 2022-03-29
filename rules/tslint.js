@@ -8,18 +8,18 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    "@typescript-eslint/member-delimiter-style": [
-      "error",
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
       {
-          "multiline": {
-              "delimiter": "semi",
-              "requireLast": true
-          },
-          "multilineDetection": "brackets"
-      }
+        'multiline': {
+          'delimiter': 'semi',
+          'requireLast': true,
+        },
+        'multilineDetection': 'brackets',
+      },
     ],
-    "@typescript-eslint/indent": [
-      "error", 2
+    '@typescript-eslint/indent': [
+      'error', 2,
     ],
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/method-signature-style': [

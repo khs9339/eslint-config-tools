@@ -2,6 +2,21 @@
   "extends": ["./index"],
   "env": {
     "jest": true
-  }
+  },
+  "ignorePatterns": [
+    "/coverage",
+    "/bin",
+    "/dist",
+    "/build",
+    "/node_modules",
+    "/out",
+    "/public",
+    "/static",
+    "/.coverage",
+    "/.git",
+    "/.idea",
+    "/.vscode",
+    "/src/assets"
+  ]
 }
   
