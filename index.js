@@ -5,9 +5,9 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['./rules/eslint'].map((e) => require.resolve(e)),
+  extends: ['./rules/eslint'].map((e)=> require.resolve(e)),
   plugins: [],
-  parser: 'eslint-parser',
+  // parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
@@ -25,6 +25,6 @@ module.exports = {
     '/.git',
     '/.idea',
     '/.vscode',
-    '/src/assets'
+    '/src/assets',
   ],
 };
