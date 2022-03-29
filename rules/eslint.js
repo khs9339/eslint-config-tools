@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "eslint:recommended",
+  extends: 'eslint:recommended',
   rules: {
     'indent': [
       'error',
@@ -182,9 +182,9 @@ module.exports = {
         'allowAllPropertiesOnSameLine': false,
       },
     ],
-    "space-before-blocks": [
-      "error",
-      "always"
+    'space-before-blocks': [
+      'error',
+      'always',
     ],
   },
 };
