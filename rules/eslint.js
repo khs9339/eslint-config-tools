@@ -186,5 +186,6 @@ module.exports = {
       'error',
       'always',
     ],
+    'no-multi-spaces': 'error',
   },
 };
