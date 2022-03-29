@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   ignorePatterns: [
-    "/coverage",
+    '/coverage',
     '/bin',
     '/dist',
     '/build',
