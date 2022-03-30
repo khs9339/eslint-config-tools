@@ -57,6 +57,7 @@ module.exports = {
         'tuples': 'always-multiline',
       },
     ],
+    '@typescript-eslint/space-before-blocks': 'error',
   },
   overrides: [
     {

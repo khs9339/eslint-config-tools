@@ -187,5 +187,6 @@ module.exports = {
       'always',
     ],
     'no-multi-spaces': 'error',
+    'jsx-quotes': ['error', 'prefer-single'],
   },
 };
