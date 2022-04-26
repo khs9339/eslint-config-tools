@@ -6,6 +6,7 @@
 ```bash
 $ npm i -D eslint-config-tools
 ```
+## Usage
 ```json
 // .eslintrc.*
 {
@@ -34,5 +35,8 @@ $ npm i -D eslint-config-tools
 }
 ```
 
-
-
+## Rules
+ - [eslint-rule](./docs/eslint-rules.md)
+ - tslint-rule
+ - vue-rule
+ - react-rule

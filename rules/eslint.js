@@ -56,6 +56,13 @@ module.exports = {
         'functions': 'never',
       },
     ],
+    'comma-spacing': [
+      'error',
+      {
+        'before': false,
+        'after': true,
+      },
+    ],
     'no-unused-vars': [
       'warn',
       {
@@ -89,17 +96,10 @@ module.exports = {
     'camelcase': [
       'error',
       {
-        'properties': 'never',
+        'properties': 'always',
         'ignoreDestructuring': false,
         'ignoreImports': false,
         'ignoreGlobals': false,
-      },
-    ],
-    'comma-spacing': [
-      'error',
-      {
-        'before': false,
-        'after': true,
       },
     ],
     'computed-property-spacing': [
@@ -108,22 +108,15 @@ module.exports = {
     ],
     'curly': [
       'error',
-      'multi-line',
+      'all',
     ],
     'eqeqeq': [
       'error',
       'always',
-      {
-        'null': 'ignore',
-      },
     ],
     'func-call-spacing': [
       'error',
       'never',
-    ],
-    'handle-callback-err': [
-      'error',
-      '^(err|error)$',
     ],
     'key-spacing': [
       'error',
@@ -151,24 +144,6 @@ module.exports = {
       'never',
     ],
     'space-infix-ops': [
-      'error',
-    ],
-    'no-dupe-args': [
-      'error',
-    ],
-    'no-dupe-class-members': [
-      'error',
-    ],
-    'no-dupe-keys': [
-      'error',
-    ],
-    'no-duplicate-case': [
-      'error',
-    ],
-    'no-func-assign': [
-      'error',
-    ],
-    'no-global-assign': [
       'error',
     ],
     'object-curly-spacing': [
