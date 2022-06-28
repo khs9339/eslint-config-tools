@@ -93,6 +93,13 @@ module.exports = {
               'T',
             ],
           },
+          {
+            'selector': 'enum',
+            'format': ['PascalCase'],
+            'leadingUnderscore': 'forbid',
+            'trailingUnderscore': 'forbid',
+            'prefix': ['E'],
+          },
         ],
       },
     },
